@@ -13,7 +13,7 @@ export const SocketProvider=({children})=>{
     const [authUser]=useAuth()
     useEffect(()=>{
         if(authUser){
-            const socket=io("http://localhost:4002",{
+            const socket=io("https://chatwave-w27z.onrender.com",{
     
                 query:{
                     userId:authUser.user._id,
