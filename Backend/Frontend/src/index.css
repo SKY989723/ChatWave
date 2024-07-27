@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-1::-webkit-scrollbar {
+    display: none;
+  } 
+   .no-scrollbar-akash::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar-akash {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+  
